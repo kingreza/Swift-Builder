@@ -7,4 +7,4 @@ Our customers at <a href="http://www.yourmechanic.com">YourMechanic</a> request 
 
 <h3>The solution:</h3>
 
-Link to the repo for the completed project: <a href="https://github.com/kingreza/Swift-Interpreter">Swift - Interpreter</a>
+Link to the repo for the completed project: <a href="https://github.com/kingreza/Swift-Builder">Swift - Builder</a>
