@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570797681CD68E7800EE750B /* quote_buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570797671CD68E7800EE750B /* quote_buildable.swift */; };
+		5707976A1CD6908600EE750B /* quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570797691CD6908600EE750B /* quote.swift */; };
+		5707976C1CD690C600EE750B /* quote_builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5707976B1CD690C600EE750B /* quote_builder.swift */; };
+		57D4494A1CD57C7500DBE184 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D449491CD57C7500DBE184 /* main.swift */; };
+		57D449521CD57DBE00DBE184 /* customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D449511CD57DBE00DBE184 /* customer.swift */; };
+		57D449541CD57EAD00DBE184 /* mechanic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D449531CD57EAD00DBE184 /* mechanic.swift */; };
+		57D449561CD57ECB00DBE184 /* mechanic_skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D449551CD57ECB00DBE184 /* mechanic_skill.swift */; };
+		57D449581CD57FE900DBE184 /* service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D449571CD57FE900DBE184 /* service.swift */; };
+		57D4495A1CD580A800DBE184 /* data_provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D449591CD580A800DBE184 /* data_provider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		57D449441CD57C7500DBE184 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		570797671CD68E7800EE750B /* quote_buildable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quote_buildable.swift; sourceTree = "<group>"; };
+		570797691CD6908600EE750B /* quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quote.swift; sourceTree = "<group>"; };
+		5707976B1CD690C600EE750B /* quote_builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quote_builder.swift; sourceTree = "<group>"; };
+		57D449461CD57C7500DBE184 /* Mechanic - Builder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Mechanic - Builder"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D449491CD57C7500DBE184 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		57D449511CD57DBE00DBE184 /* customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customer.swift; sourceTree = "<group>"; };
+		57D449531CD57EAD00DBE184 /* mechanic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mechanic.swift; sourceTree = "<group>"; };
+		57D449551CD57ECB00DBE184 /* mechanic_skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mechanic_skill.swift; sourceTree = "<group>"; };
+		57D449571CD57FE900DBE184 /* service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = service.swift; sourceTree = "<group>"; };
+		57D449591CD580A800DBE184 /* data_provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data_provider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57D449431CD57C7500DBE184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57D4493D1CD57C7500DBE184 = {
+			isa = PBXGroup;
+			children = (
+				57D449481CD57C7500DBE184 /* Mechanic - Builder */,
+				57D449471CD57C7500DBE184 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57D449471CD57C7500DBE184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D449461CD57C7500DBE184 /* Mechanic - Builder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D449481CD57C7500DBE184 /* Mechanic - Builder */ = {
+			isa = PBXGroup;
+			children = (
+				57D449491CD57C7500DBE184 /* main.swift */,
+				57D449511CD57DBE00DBE184 /* customer.swift */,
+				57D449531CD57EAD00DBE184 /* mechanic.swift */,
+				57D449551CD57ECB00DBE184 /* mechanic_skill.swift */,
+				57D449571CD57FE900DBE184 /* service.swift */,
+				57D449591CD580A800DBE184 /* data_provider.swift */,
+				570797671CD68E7800EE750B /* quote_buildable.swift */,
+				5707976B1CD690C600EE750B /* quote_builder.swift */,
+				570797691CD6908600EE750B /* quote.swift */,
+			);
+			path = "Mechanic - Builder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57D449451CD57C7500DBE184 /* Mechanic - Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D4494D1CD57C7500DBE184 /* Build configuration list for PBXNativeTarget "Mechanic - Builder" */;
+			buildPhases = (
+				57D449421CD57C7500DBE184 /* Sources */,
+				57D449431CD57C7500DBE184 /* Frameworks */,
+				57D449441CD57C7500DBE184 /* CopyFiles */,
+				57D449501CD57C8100DBE184 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mechanic - Builder";
+			productName = "Mechanic - Builder";
+			productReference = 57D449461CD57C7500DBE184 /* Mechanic - Builder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57D4493E1CD57C7500DBE184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Reza Shirazian";
+				TargetAttributes = {
+					57D449451CD57C7500DBE184 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 57D449411CD57C7500DBE184 /* Build configuration list for PBXProject "Mechanic - Builder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57D4493D1CD57C7500DBE184;
+			productRefGroup = 57D449471CD57C7500DBE184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D449451CD57C7500DBE184 /* Mechanic - Builder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57D449501CD57C8100DBE184 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57D449421CD57C7500DBE184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5707976C1CD690C600EE750B /* quote_builder.swift in Sources */,
+				57D4494A1CD57C7500DBE184 /* main.swift in Sources */,
+				57D449561CD57ECB00DBE184 /* mechanic_skill.swift in Sources */,
+				57D4495A1CD580A800DBE184 /* data_provider.swift in Sources */,
+				57D449541CD57EAD00DBE184 /* mechanic.swift in Sources */,
+				5707976A1CD6908600EE750B /* quote.swift in Sources */,
+				57D449521CD57DBE00DBE184 /* customer.swift in Sources */,
+				570797681CD68E7800EE750B /* quote_buildable.swift in Sources */,
+				57D449581CD57FE900DBE184 /* service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		57D4494B1CD57C7500DBE184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57D4494C1CD57C7500DBE184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		57D4494E1CD57C7500DBE184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57D4494F1CD57C7500DBE184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57D449411CD57C7500DBE184 /* Build configuration list for PBXProject "Mechanic - Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D4494B1CD57C7500DBE184 /* Debug */,
+				57D4494C1CD57C7500DBE184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D4494D1CD57C7500DBE184 /* Build configuration list for PBXNativeTarget "Mechanic - Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D4494E1CD57C7500DBE184 /* Debug */,
+				57D4494F1CD57C7500DBE184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57D4493E1CD57C7500DBE184 /* Project object */;
+}
