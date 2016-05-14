@@ -33,9 +33,9 @@ class DataProvider {
   private func initMechanic() {
     mechanics.insert(Mechanic(name: "Steve Brimington", skill: .Junior))
     mechanics.insert(Mechanic(name: "Mike Fulton", skill: .Junior))
-    mechanics.insert(Mechanic(name: "Ali Belevue", skill: .Junior))
+    mechanics.insert(Mechanic(name: "Ali Bellevue", skill: .Junior))
     mechanics.insert(Mechanic(name: "Dick Duchess", skill: .Apprentice))
-    mechanics.insert(Mechanic(name: "Shane Ingelwood", skill: .Apprentice))
+    mechanics.insert(Mechanic(name: "Shane Inglewood", skill: .Apprentice))
     mechanics.insert(Mechanic(name: "Trevor Matters", skill: .Apprentice))
     mechanics.insert(Mechanic(name: "Moris King", skill: .Experienced))
     mechanics.insert(Mechanic(name: "Nick Main", skill: .Experienced))
@@ -59,7 +59,7 @@ class DataProvider {
     services.insert(Service(name: "Lubricate Trunk",
       minimumSkillRequired: .Junior,
       price: 19.00))
-    services.insert(Service(name: "Air Filter Replacemente",
+    services.insert(Service(name: "Air Filter Replacement",
       minimumSkillRequired: .Junior,
       price: 39.00))
     services.insert(Service(name: "Brake Motor Replacement",

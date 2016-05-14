@@ -61,20 +61,6 @@ class QuoteBuilder: QuoteBuildable {
 
   }
 
-  func result() -> Quote? {
-    if isValid {
-      possibleMechanic!.isBusy = true
-      let quote = Quote(mechanic: possibleMechanic!,
-                        services: Array(services),
-                        customer: customer!,
-                        car: possibleCar!,
-                        coupon: possibleCoupon)
-      clearBuilder()
-      return quote
-    } else {
-      return nil
-    }
-  }
 
   var isValid: Bool {
     if possibleMechanic == nil {
@@ -106,11 +92,28 @@ class QuoteBuilder: QuoteBuildable {
 
   }
 
+  func result() -> Quote? {
+    if isValid {
+      print("***")
+      possibleMechanic!.isBusy = true
+      let quote = Quote(mechanic: possibleMechanic!,
+        services: Array(services),
+        customer: customer!,
+        car: possibleCar!,
+        coupon: possibleCoupon)
+      clearBuilder()
+      return quote
+    } else {
+      return nil
+    }
+  }
+  
   private func clearBuilder() {
     possibleMechanic = nil
     services.removeAll()
     customer = nil
   }
+ 
   private func possibleMechanicCanDoServices() -> Bool {
     if let possibleMechanic = possibleMechanic {
       return possibleMechanic.skill.rawValue >= highestSkillSetRequired?.rawValue
@@ -123,5 +126,4 @@ class QuoteBuilder: QuoteBuildable {
       return MechanicSkill(rawValue: services.reduce (0, combine: {max($0, $1.minimumSkillRequired.rawValue)}))
     }
   }
-
 }

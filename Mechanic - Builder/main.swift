@@ -13,21 +13,19 @@ var quoteBuilder = QuoteBuilder()
 
 quoteBuilder.isValid
 
-var quote = quoteBuilder.result()
-
 quoteBuilder.setCustomer(Customer(name: "Reza Shirazian",
-                                  address: "N Rengstoff Ave Mountain View",
+                                  address: "N Rengstorff Ave Mountain View",
                                   email: "reza@example.com"))
 quoteBuilder.addService(DataProvider.instance.getService("Brake Inspection")!)
 quoteBuilder.addService(DataProvider.instance.getService("Battery Inspection")!)
 quoteBuilder.addService(DataProvider.instance.getService("Oil Change")!)
-
+quoteBuilder.setCar("Honda")
 quoteBuilder.setMechanic()
 
-quote = quoteBuilder.result()
+var quote = quoteBuilder.result()
 
 quoteBuilder.setCustomer(Customer(name: "Sarah Khosravani",
-                                  address: "S Rengstoff Mountain View",
+                                  address: "S Rengstorff Mountain View",
                                   email: "sarah@example.com"))
 
 quoteBuilder.addService(DataProvider.instance.getService("Brake Pad Replacement")!)
@@ -40,6 +38,5 @@ quoteBuilder.isValid
 quoteBuilder.addService(DataProvider.instance.getService("Timing Belt Replacement")!)
 quoteBuilder.isValid
 quoteBuilder.setMechanic()
-quoteBuilder.isValid
 
 quote = quoteBuilder.result()

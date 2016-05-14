@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Customer: Hashable, Equatable {
+struct Customer {
   var name: String
   var address: String
   var email: String
@@ -18,12 +18,4 @@ struct Customer: Hashable, Equatable {
     self.address = address
     self.email = email
   }
-
-  var hashValue: Int {
-    return email.hashValue
-  }
-}
-
-func == (lhs: Customer, rhs: Customer) -> Bool {
-  return lhs.email == rhs.email
 }
