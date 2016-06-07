@@ -1,6 +1,8 @@
 <h1>Design Patterns in Swift: Builder</h1>
 This repository is part of a series. For the full list check out <a href="https://shirazian.wordpress.com/2016/04/11/design-patterns-in-swift/">Design Patterns in Swift</a>
 
+For a cheat-sheet of design patterns implemented in Swift check out <a href="https://github.com/ochococo/Design-Patterns-In-Swift"> Design Patterns implemented in Swift: A cheat-sheet</a>
+
 <h3>The problem:</h3>
 Our customers at <a href="http://www.yourmechanic.com">YourMechanic</a> request quotes through our website or through their YourMechanic App. A quote is a complicated object. It must have a car, at least one service, the customer's contact information, a mechanic capable of doing the services automatically picked by the system or selected by the user. A quote may or may not have a coupon code. We need a system that can build our quote and guarantee its validity. The system should be extendable and capable of dealing with changes to our quote creation process, ideally without having to change anything in the quote object itself.
 <h3>The solution:</h3>
